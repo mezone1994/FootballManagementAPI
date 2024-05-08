@@ -1,0 +1,8 @@
+﻿Add-Migration -Context FootballDbContext -o Data\FBMigration Initial
+Update-Database -Context FootballDbContext 
+
+
+Put at end of Up() 
+
+Add To Migration:
+ExtraMigration.Steps(migrationBuilder);
